@@ -32,22 +32,68 @@
 /* Main content */
 .content {
   display: flex;
+  padding-top: 100px;
+  font-family: Georgia;
 }
+
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+h1 {
+font-size: 40px;
+}
+
+p {
+  font-size: 17px;
+  color: black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column_left {
+  width: 630px;
+}
+
+.column_middle {
+  width: 300px;
+}
+
+.column_right {
+  width: 240px;
+}
+
+/*--      left column_left    --*/
 
 .Tuna_Story_Head {
   height: 300px;
   width: 630px;
-  background-image: url("../images/wineglass_bottle.png")
-
-
-}
-
-.Tuna_Story_Head p {
+  background-image: url("../images/wineglass_bottle.png");
   font-family: Georgia;
   font-weight: bold;
-  font-size: 40px;
   color: white;
   text-align: center;
+}
 
+.Earth_story {
+  background-image: url("../images/fall_season_girl.png");
+  background-repeat: no-repeat;
+}
 
+.Research_story {
+  background-image: url("../images/beardman_camera.png");
+  background-repeat: no-repeat;
+}
+
+.Cat_Story_image {
+  background-image: url("../images/whitecat_girl.png");
+}
+
+div {
+  border: 1px solid black;
 }
