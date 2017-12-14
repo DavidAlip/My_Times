@@ -32,8 +32,10 @@
 /* Main content */
 .content {
   display: flex;
-  padding-top: 100px;
+  padding-top: 10px;
   font-family: Georgia;
+  justify-content: space-between;
+
 }
 
 h2 {
@@ -53,11 +55,11 @@ p {
 
 .column {
   display: flex;
-  flex-direction: column;
 }
 
 .column_left {
   width: 630px;
+  flex-direction: column;
 }
 
 .column_middle {
@@ -70,7 +72,11 @@ p {
 
 /*--      left column_left    --*/
 
-.Tuna_Story_Head {
+.Tuna_story {
+
+}
+
+.Tuna_Story_image {
   height: 300px;
   width: 630px;
   background-image: url("../images/wineglass_bottle.png");
@@ -78,6 +84,11 @@ p {
   font-weight: bold;
   color: white;
   text-align: center;
+}
+
+.other_stories {
+  display: flex;
+  justify-content: space-between;
 }
 
 .Earth_story {
