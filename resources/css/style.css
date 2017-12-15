@@ -31,7 +31,7 @@
 .content {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 5px;
 
 }
 
@@ -137,16 +137,34 @@
   text-align: center;
 }
 
-li {
+.news-bites-content span {
   display: flex;
   flex-direction: column;
-  list-style-type: none;
   background-color: whitesmoke;
   font-family: Verdana;
   font-size: 12px;
   color: dimgray;
   border-bottom: 1px solid black;
-  text-align: left;
-  width: 240px;
-  padding: 15px 5px;
+  padding: 10px 10px;
+}
+
+/*--          footer          --*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-info {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.footer-info a {
+  justify-content: center;
+}
+
+div {
+  border: 1px solid black;
 }
