@@ -11,9 +11,6 @@
   margin-bottom: 10px;
 }
 
-.logo {
-}
-
 .heading {
   color: mediumaquamarine;
   padding-left: 10px;
@@ -29,82 +26,103 @@
   display: inline;
 }
 
-/* Main content */
+/*--          div border delete later --*/
+div {
+  border: 1px solid black;
+}
+
+/*--           Main content         --*/
 .content {
   display: flex;
-  padding-top: 10px;
-  font-family: Georgia;
-  justify-content: space-between;
-
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
-
-h1 {
-font-size: 40px;
-}
-
-p {
-  font-size: 17px;
-  color: black;
+  justify-content: center;
+  padding-top: 30px;
 }
 
 .column {
   display: flex;
-}
-
-.column_left {
-  width: 630px;
+  flex-wrap: wrap;
   flex-direction: column;
+  margin-right: 50px;
 }
 
-.column_middle {
-  width: 300px;
+.story-content {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
-.column_right {
-  width: 240px;
-}
-
-/*--      left column_left    --*/
-
-.Tuna_story {
-
-}
-
-.Tuna_Story_image {
-  height: 300px;
-  width: 630px;
-  background-image: url("../images/wineglass_bottle.png");
+.image-text {
   font-family: Georgia;
   font-weight: bold;
+  font-size: 30px;
   color: white;
-  text-align: center;
+}
+/*--      left column           --*/
+.main-story-text {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
-.other_stories {
+.column.large {
   display: flex;
+  width: 630px;
+}
+
+.tuna-image {
+  height: 300px;
+  background-image: url("../images/wineglass_bottle.png");
+}
+
+.earth-story {
+  height: 300px;
+  background-image: url("../images/fall_season_girl.png");
+}
+
+.research-story {
+  height: 300px;
+  background-image: url("../images/beardman_camera.png");
+}
+
+.more-stories {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.Earth_story {
-  background-image: url("../images/fall_season_girl.png");
-  background-repeat: no-repeat;
+.orca-story {
+  height: 250px;
+  width: 300px;
 }
 
-.Research_story {
-  background-image: url("../images/beardman_camera.png");
-  background-repeat: no-repeat;
+.burger-story {
+  height: 250px;
+  width: 300px;
 }
 
-.Cat_Story_image {
+.earth-story {
+  height: 300px;
+  width: 300px;
+}
+
+.research-story {
+  height: 300px;
+  width: 300px;
+}
+
+/*--      middle column       --*/
+.column.medium {
+  width: 300px;
+}
+
+.cat-image {
+  height: 300px;
   background-image: url("../images/whitecat_girl.png");
 }
 
-div {
-  border: 1px solid black;
+
+/*--      right COLUMN    --*/
+.column.small {
+  width: 240px;
 }
