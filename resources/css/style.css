@@ -32,6 +32,7 @@
   display: flex;
   justify-content: center;
   padding-top: 5px;
+  margin-bottom: 50px;
 
 }
 
@@ -151,20 +152,38 @@
 /*--          footer          --*/
 footer {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 100%;
+  flex-direction: column;
+  background-color: mediumaquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
 }
 
-.footer-info {
-  display: inline-flex;
-  justify-content: center;
+.footer-content {
+  margin: auto;
+  align-items: center;
+
 }
 
-.footer-info a {
-  justify-content: center;
+.first-line {
+  display: flex;
 }
 
-div {
-  border: 1px solid black;
+.bottom-logo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 30px;
+  border-right: 2px solid white;
+}
+
+.bottom-menu a {
+  color: black;
+  padding-left: 30px;
+}
+
+.copyright {
+  text-align: center;
 }
